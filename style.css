@@ -1,0 +1,51 @@
+
+			
+
+			body {
+				font-family: arial; color: #2f4f4f;
+				/*Utilisation arial front for all page de color gray/blue*/ 
+}
+			.titre {
+				text-align: center; 			
+				border-top: 20px dotted #5f9ea0;
+				border-bottom: 20px dotted #5f9ea0; 
+				background: #d3d3d3; 
+				border-radius: 50%;
+				width: 400px;
+				height: 400px;
+				box-sizing: border-box;
+				position: relative;
+				float:right; 
+				/*Processing title border in circle from right*/
+
+					 	
+	}
+
+			h1 {	
+				position: relative;
+				margin-top: 140px;
+				/*position title "developpeur logiciel" from 140px*/	
+}
+			
+			.info {
+				
+				width: 200px;			
+				height: 80px; 
+				border: 80px solid #5f9ea0;
+				position: relative;
+				/*personal information center big border*/
+
+}
+			
+
+			h2 {
+				background:#5f9ea0; color: white; 
+				/*font white and gray background*/
+}	
+			h3 {
+				font-size:15px; color:#5f9ea0;
+				/*font size blue and 15 pixel*/
+}
+		
+	
+
