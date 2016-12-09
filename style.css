@@ -15,7 +15,8 @@
 				height: 400px;
 				box-sizing: border-box;
 				position: relative;
-				float:right; 
+				float:right;
+				list-style: none;  
 				/*Processing title border in circle from right*/
 
 					 	
@@ -33,6 +34,7 @@
 				height: 80px; 
 				border: 80px solid #5f9ea0;
 				position: relative;
+				border-radius:50px;
 				/*personal information center big border*/
 
 }
@@ -41,11 +43,33 @@
 			h2 {
 				background:#5f9ea0; color: white; 
 				/*font white and gray background*/
-}	
+}
+	
 			h3 {
-				font-size:15px; color:#5f9ea0;
+				font-size:15px; 
+				color:#5f9ea0;
 				/*font size blue and 15 pixel*/
 }
 		
-	
+			nav ul li {
+				
+				font-weight: bold;
+				list-style: none; 
+				display: inline-block; /*alignement*/
+				width: 200px;
+     				height: 43px;
+     				padding-top: 20px;
+				text-align: center;
+				color: white;
+     				background: #2f4f4f;
+				line-height:24px; /* centrage vertical */
+				border-radius:50px;
+				background:linear-gradient(#5f9ea0,#333750);/*dégradé*/
+				
+
+
+     				
+}
+
+
 
