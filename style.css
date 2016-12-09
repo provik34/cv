@@ -67,9 +67,16 @@
 				background:linear-gradient(#5f9ea0,#333750);/*dégradé*/
 				
 
-
      				
 }
+
+			nav ul li a {
+				text-decoration: none;
+				color: white;
+}
+
+		
+			
 
 
 
