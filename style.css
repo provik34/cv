@@ -3,56 +3,16 @@
 
 			body {
 				font-family: arial; color: #2f4f4f;
-				/*Utilisation arial front for all page de color gray/blue*/ 
-}
-			.titre {
-				text-align: center; 			
-				border-top: 20px dotted #5f9ea0;
-				border-bottom: 20px dotted #5f9ea0; 
-				background: #d3d3d3; 
-				border-radius: 50%;
-				width: 400px;
-				height: 400px;
-				box-sizing: border-box;
-				position: relative;
-				float:right;
-				list-style: none;  
-				/*Processing title border in circle from right*/
-
-					 	
-	}
-
-			h1 {	
-				position: relative;
-				margin-top: 140px;
-				/*position title "developpeur logiciel" from 140px*/	
-}
-			
-			.info {
 				
-				width: 200px;			
-				height: 80px; 
-				border: 80px solid #5f9ea0;
-				position: relative;
-				border-radius:50px;
-				/*personal information center big border*/
+				
+}
 
+			li {
+				/*delete bullets from lists*/ 
+				list-style: none;
 }
-			
-
-			h2 {
-				background:#5f9ea0; color: white; 
-				/*font white and gray background*/
-}
-	
-			h3 {
-				font-size:15px; 
-				color:#5f9ea0;
-				/*font size blue and 15 pixel*/
-}
-		
 			nav ul li {
-				
+				/*button navigation menu*/ 	
 				font-weight: bold;
 				list-style: none; 
 				display: inline-block; /*alignement*/
@@ -62,18 +22,185 @@
 				text-align: center;
 				color: white;
      				background: #2f4f4f;
-				line-height:24px; /* centrage vertical */
+				line-height:24px; /* center height */
 				border-radius:50px;
-				background:linear-gradient(#5f9ea0,#333750);/*dégradé*/
+				background:linear-gradient(#5f9ea0,#333750);/*gradient*/
 				
 
      				
 }
 
 			nav ul li a {
+				/*delete blue and red effet */ 
 				text-decoration: none;
 				color: white;
 }
+
+			.titre {
+				/*creation of oval from right*/ 
+				background:#725203; 
+				border-radius: 50%;
+				width: 300px;
+				height: 200px;
+				position: relative;
+				float:right;
+				 
+				
+
+					 	
+	}
+
+			h1 {	
+				/*title position "developpeuse logiciel" in oval*/
+				text-align: center;
+				color: white;	
+				position: relative;
+				margin-top: 80px;
+					
+}
+			
+			.info {
+				/*personal information in rectangle at left with bordur 				effet;*/
+				font-weight: bold;
+				background: #5f9ea0; 
+				width: 400px;			
+				height: 80px; 
+				border: 20px dotted white;
+				position: relative;
+				border-radius:50px;
+
+
+}
+			
+			.competence {
+				background:#5f9ea0;
+				width: 280px;			
+				height: 150px; 
+				border-radius:50px;
+				position: absolute;
+				top:320px;
+				left:300px;
+				 
+}
+
+			.experience {
+				background:#5f9ea0;
+				width: 900px;			
+				height: 500px; 
+				border-radius:50px;
+				float:right;
+				position: absolute;
+				top:450px;
+				left:400px;
+				
+				 
+}
+
+			.diplome {
+				background:#0F6D73;
+				color: white;
+				width: 280px;			
+				height: 250px; 
+				border-radius:50px;
+				position: absolute;
+				top:500px;
+				left:30px;
+				
+				 
+}
+
+			.loisir {
+				background:black;
+				border-radius:50px;
+				border: 20px dotted white;
+				width: 200px;
+				height:260px;
+				position: absolute;
+				top:920px;
+				left:900px;
+				
+			
+				
+}
+
+			h2 {
+				/*dates in experience paragraph are center s*/
+				text-align: center;
+				color:white;
+				
+				
+				
+				
+}
+	
+			h3 {
+				/*size font of the date of experience part*/
+				font-size:15px bold; 
+				color:#B3D9EE;
+			
+
+}
+
+			p {	/*all paragraph center*/
+
+				text-align:center;
+				
+
+				
+}
+
+
+			.forme1 {
+					
+				background:#13556A;
+				height:70px;
+				width:70px;
+				border-radius: 50%;
+				position: absolute;
+				top:1040px;
+				left:10px;
+				
+					
+				
+}	
+
+			.forme2 {
+					background:black;
+					height:70px;
+					width:70px;
+					border-radius: 50%;
+					position: absolute;
+					top: 1040px;
+					left:90px;
+					
+				
+}
+
+			.forme3 {
+					background:black;
+					height:70px;
+					width:70px;
+					border-radius: 50%;
+					position: absolute;
+					top:1120px;
+					left:10px;
+					
+				
+}
+
+			.forme4 {
+					background:black;
+					height:70px;
+					width:70px;
+					border-radius: 50%;
+					position: absolute;
+					top:1120px;
+					left:90px;
+				
+}									
+									
+				
+		
 
 		
 			
